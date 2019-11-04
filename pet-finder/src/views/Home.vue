@@ -1,3 +1,4 @@
+<!--@author Kalanka Siyambalapitiya-->
 <template>
   <div class="container">
     <section>
@@ -155,7 +156,9 @@
             <div class="card-body">
               <h5 class="card-title">Cats Adoption Articles</h5>
               <p class="card-text">Helpful insights on what to expect</p>
-              <button class="btn btn-primary" type="button">Read more</button>
+              <router-link to="/pet-adoption/cat-adoption">
+                <button class="btn btn-primary" type="button">Read more</button>
+              </router-link>
             </div>
           </div>
           <div class="card" style="width:30em;">
@@ -166,7 +169,9 @@
             <div class="card-body">
               <h5 class="card-title">Dogs adoption articles</h5>
               <p class="card-text">Learn more about caring for your new dog</p>
-              <button class="btn btn-primary" type="button">Read more</button>
+              <router-link to="/pet-adoption/dog-adoption">
+                <button class="btn btn-primary" type="button">Read more</button>
+              </router-link>
             </div>
           </div>
         </div>
