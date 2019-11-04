@@ -2,5 +2,7 @@
 Pet Finder Front end web application (Vue js)
 # procedure
 Clone the project 
-npm install 
-npm run serve
+
+npm install ( install dependencies)
+
+npm run serve ( development build)
