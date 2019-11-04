@@ -1,10 +1,9 @@
+<!--@author Kalanka Siyambalapitiya-->
 <template>
   <div id="app">
-      <!-- <router-link to="/">Cats</router-link> |
-      <router-link to="/about">Dogs</router-link> -->
-      <AppNavBar></AppNavBar>
-      <router-view />
-      <AppFooter></AppFooter> 
+    <AppNavBar></AppNavBar>
+    <router-view />
+    <AppFooter></AppFooter>
   </div>
 </template>
 
@@ -31,18 +30,15 @@
 }
 </style>
 <script lang="ts">
-import {Vue,Component} from 'vue-property-decorator';
-import AppNavBar from '@/components/AppNavBar';
-import AppFooter from '@/components/AppFooter';
-
+import { Vue, Component } from "vue-property-decorator";
+import AppNavBar from "@/components/AppNavBar";
+import AppFooter from "@/components/AppFooter";
 
 @Component({
-  components:{
+  components: {
     AppFooter,
     AppNavBar
   }
 })
-export default class App extends Vue{
-
-}
+export default class App extends Vue {}
 </script>

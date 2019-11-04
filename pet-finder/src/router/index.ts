@@ -1,7 +1,9 @@
+/**
+ * @author Kalanka Siyambalapitiya
+ */
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Search from "../views/Search.vue";
 
 Vue.use(VueRouter);
 
@@ -20,6 +22,16 @@ const routes = [
     path: "/search/dogs",
     name: "dogs",
     component: () => import('@/views/Dogs.vue')
+  },
+  {
+    path: "pet-adoption/cat-adoption/",
+    name: "dogs",
+    component: () => import('@/views/CatAdoption.vue')
+  },
+  {
+    path: "pet-adoption/dog-adoption/",
+    name: "dogs",
+    component: () => import('@/views/DogAdoption.vue')
   },
 
 ];

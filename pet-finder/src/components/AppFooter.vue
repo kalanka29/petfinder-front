@@ -1,3 +1,4 @@
+<!--@author Kalanka Siyambalapitiya-->
 <template>
   <footer>
     <div class="container">
