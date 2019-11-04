@@ -1,6 +1,6 @@
-# petfinder-front
+# petfinder-front end
 Pet Finder Front end web application (Vue js)
-
-
-Clone the project and run 
+# procedure
+Clone the project 
+npm install 
 npm run serve
